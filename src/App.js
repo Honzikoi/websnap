@@ -7,11 +7,11 @@ import screenshot1 from "./assets/imgs/screenshot-1.jpg";
 import screenshot2 from "./assets/imgs/screenshot-2.jpg";
 import screenshot3 from "./assets/imgs/screenshot-3.jpg";
 import { useState } from "react";
-import Contact from "./components/Contact/Contact";
 
 function App() {
+  // state that shows contact page content when contact variable is true
+  const [Contact, setContact] = useState(false);
   return (
-    <BrowserRouter>
       <div className="App">
         <Navbar />
         <Section
@@ -40,9 +40,7 @@ function App() {
           image={screenshot3}
         />
         <Footer />
-        <Contact />
       </div>
-    </BrowserRouter>
   );
 }
 
