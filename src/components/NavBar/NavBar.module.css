@@ -1,0 +1,33 @@
+.Navbar {
+  padding: 10px;
+  display: flex;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.493);
+  justify-content: space-between;
+  background-color: rgb(0, 105, 168);
+}
+.logo img {
+  width: 7em;
+  height: auto;
+}
+.items ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+  padding-right: 50px;
+  list-style: none;
+}
+
+.items {
+  display: flex;
+  color: rgb(1, 79, 197);
+  align-items: center;
+}
+
+.items a {
+  text-decoration: none;
+  color: white;
+}
+
+.items a:hover {
+  color: rgb(63, 197, 255);
+}
